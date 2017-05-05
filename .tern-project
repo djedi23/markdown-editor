@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "es_modules": {},
+    "node": {},
+     "webpack": {
+    }
+  },
+   "loadEagerly": [
+     "src/**/*.js",
+    "src/**/*.jsx"
+  ],
+  "libs": [
+  ],
+  "ecmaVersion": 6
+}

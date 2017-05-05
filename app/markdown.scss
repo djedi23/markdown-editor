@@ -1,0 +1,39 @@
+$highlightBg: #F8F8F8;
+$highlightBorderColor: darken($highlightBg, 10%);
+$codeColor: #c7254e;
+
+a {
+	color: #4040FF;
+	text-decoration: none;
+}
+
+blockquote {
+	background: $highlightBg;
+	border-left: solid 3px $highlightBorderColor;
+	margin-left: 0;
+	padding-left: 2em;
+}
+
+
+code {
+	color: $codeColor;
+}
+
+pre {
+	background: $highlightBg;
+	border: solid 1px $highlightBorderColor;
+	font-size: 9pt;
+	padding:1ex;
+	code {
+		color: black;
+	}
+}
+
+li {
+	p{
+		margin:0;
+	}
+}
+.emoji {
+	height: 1.1em;
+}

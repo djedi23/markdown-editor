@@ -1,0 +1,11 @@
+.nopadding {
+  padding-left:  0px !important;
+  padding-right: 0px !important;
+}
+
+.markdown {
+  max-height:calc(100vh - 63px);
+  overflow:overlay;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
